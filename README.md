@@ -13,23 +13,14 @@ To prepare, please do the following. It's a bit annoying, but you only have to d
 
 ```bash
 git config --global user.name "Your name"  
-git config --global user.email "your@email.de"
+git config --global user.email "your@gmail.com"
 ```
-
-4. On github.com create a new token: Go to Settings -> Developer Settings -> Personal access tokens --> Tokens (classic) --> Generate new token (classic)
-
-Simply put 'git workshop' as note, and give it an expiration time of 30 days. Click on the `repo` checkbox. Copy the generated token and store it safely. Don't worry, if you lose it you can create a new one.
-
----
 
 # what are we gonna do today?
 
 1. explain git and github
 2. a little hands-on workshop for the most important aspects: committing, branching, merging, pushing
 3. set up a git repository in your own code
-
-**Note:** I will focus on using the command line, which might be a bit intimidating at first. You can also work with a user interface if you want. But the slides are for the command line, because then they can be used by everyone whereas with specific tools, everything works a bit different. I also think it is good to do it at least once this way, to really know what is going on.
-
 ---
 # git vs github
 
@@ -37,7 +28,7 @@ Simply put 'git workshop' as note, and give it an expiration time of 30 days. Cl
 	- software that runs on your computer [http://git-scm.com/about](http://git-scm.com/about)
 - github/gitlab:
 	- online tool
-		- "version control interface" or "continuous integration (CI) server"
+		- "version control interface"
 		- visualizes a git repository
 		- online backup of you code
 		- collaborate with other (comment, raise issues)
@@ -63,17 +54,6 @@ Simply put 'git workshop' as note, and give it an expiration time of 30 days. Cl
 3. see exactly what change, when, and why
 4. store multiple version of the code (try out different approaches)
 5. collaborate with others
-
----
-# demonstration in my IDE (integrated developer environment)
-
-An IDE is where you normally develop your code, like VS Code, CLion, or RStudio. They all have version control tooling and you can:
-
-- showing the log of commits
-- going back in time
-- showing current changes
-- diffing files
-
 
 ---
 # Preparation step: forking a repository
@@ -520,9 +500,4 @@ Whenever you have new code committed, and it's backed up!
 
 - There are many more features to git, but these are the most important ones, the one that you should definitely know in addition is `git revert`
 - As a best practice, commit often and in logical steps, don't just always add all changes! That makes is easy to find buts, and ensures that everything is backed up timely.
-- Set up git in your IDE (RStudio etc.)
-- If you'd like more workshops like this, please go to my website, we offer such courses for many topics for scientific groups: https://www.konstantin-gregor.com
-- Our recent paper has tips on other great tools that can help make code better: https://gmd.copernicus.org/articles/19/2407/2026/
-- If you need a break, please also check out my science parody youtube channel: https://www.youtube.com/@scienceparodysongs
 
-![](attachments/qrs.png)
