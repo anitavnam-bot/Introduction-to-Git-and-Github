@@ -473,8 +473,3 @@ Whenever you have new code committed, and it's backed up!
 
 ---
 
-# final remarks
-
-- There are many more features to git, but these are the most important ones, the one that you should definitely know in addition is `git revert`
-- As a best practice, commit often and in logical steps, don't just always add all changes! That makes is easy to find buts, and ensures that everything is backed up timely.
-
